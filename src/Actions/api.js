@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3001', // Update this with your JSON server's URL
+  baseURL: 'https://vite-deploy-lj49.onrender.com', // Update this with your JSON server's URL
 });
 
 export default api;
