@@ -8,6 +8,7 @@ function App() {
       <Routes>
       <Route path="/*" element={<HomePage />} />
       <Route path="vite-deploy/" element={<HomePage />} />
+      <Route path="*" element={<HomePage />} />
       </Routes>
     </div>
   );
