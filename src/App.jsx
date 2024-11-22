@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { Route, Routes, useNavigate } from 'react-router-dom';
+import React from "react";
+import { Route, Routes} from 'react-router-dom';
 import HomePage from "./components/HomePage";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div>
       <Routes>
       <Route path="/*" element={<HomePage />} />
+      <Route path="vite-deploy/" element={<HomePage />} />
       </Routes>
     </div>
   );

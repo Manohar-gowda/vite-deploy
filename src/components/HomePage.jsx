@@ -16,7 +16,6 @@ const HomePage = () => {
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<MainContent/>}></Route>
-          <Route path="vite-deploy/" element={<MainContent/>}></Route>
           <Route path="/menu" element={<CenteredContainer/>}></Route>
           <Route path="/users" element={<DisplayUsers/>}></Route>
           <Route path="/manage" element={<ManageUser/>}></Route>
