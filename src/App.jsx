@@ -8,12 +8,14 @@ function App() {
 
   useEffect(() => {
     navigate("/");
-  }, []);
+  }, [navigate]);
 
   return (
     <div>
       <Routes>
-        <Route path="/*" element={<HomePage/>} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="*" element={<HomePage />} />
+
       </Routes>
     </div>
   );
