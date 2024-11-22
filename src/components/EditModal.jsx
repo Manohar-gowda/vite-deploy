@@ -14,6 +14,7 @@ const EditModal = ({isOpen, onClose, user}) => {
         name: "",
         email: "",
         role: "",
+        status: "Active"
       });
 
     useEffect(() => {
@@ -22,6 +23,7 @@ const EditModal = ({isOpen, onClose, user}) => {
           name: user.name || "",
           email: user.email || "",
           role: user.role || "",
+          status: "Active"
         });
       }
     }, [user]);
