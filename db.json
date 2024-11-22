@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "48ab",
+      "name": "manohar",
+      "email": "gowdamanohar45@gmail.com",
+      "role": "Admin",
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "Read",
+        "Write",
+        "Delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    },
+    {
+      "id": "6cbc",
+      "name": "User",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "9693",
+      "name": "Admin",
+      "permissions": [
+        "Delete"
+      ]
+    }
+  ]
+}
