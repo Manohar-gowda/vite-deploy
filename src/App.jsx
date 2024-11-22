@@ -3,19 +3,10 @@ import { Route, Routes, useNavigate } from 'react-router-dom';
 import HomePage from "./components/HomePage";
 
 function App() {
-
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    navigate("/");
-  }, [navigate]);
-
   return (
     <div>
       <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="*" element={<HomePage />} />
-
+      <Route path="/*" element={<HomePage />} />
       </Routes>
     </div>
   );
